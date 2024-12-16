@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54C0740B236AA9958E71969F /* Pods_GroupVault_Share.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9641D8431BD8BF310DA9DDF2 /* Pods_GroupVault_Share.framework */; };
+		AA084FAB2CFBA1BF00C273E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA084FAA2CFBA1BF00C273E5 /* AppDelegate.swift */; };
+		AA084FAD2CFBA1BF00C273E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA084FAC2CFBA1BF00C273E5 /* SceneDelegate.swift */; };
+		AA084FAF2CFBA1BF00C273E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA084FAE2CFBA1BF00C273E5 /* ViewController.swift */; };
+		AA084FB22CFBA1BF00C273E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA084FB02CFBA1BF00C273E5 /* Main.storyboard */; };
+		AA084FB42CFBA1C100C273E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA084FB32CFBA1C100C273E5 /* Assets.xcassets */; };
+		AA084FB72CFBA1C100C273E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA084FB52CFBA1C100C273E5 /* LaunchScreen.storyboard */; };
+		AA084FC02CFBA68200C273E5 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA084FBF2CFBA68200C273E5 /* Helper.swift */; };
+		AA084FC32CFBA6B300C273E5 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA084FC22CFBA6B300C273E5 /* WelcomeViewController.swift */; };
+		AA084FC62CFBA88800C273E5 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA084FC52CFBA88800C273E5 /* DashboardViewController.swift */; };
+		AA084FC82CFBA89E00C273E5 /* dashboardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA084FC72CFBA89E00C273E5 /* dashboardCollectionViewCell.swift */; };
+		AA1F54992CFF4AEC00BE99DC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F54982CFF4AEC00BE99DC /* SettingsViewController.swift */; };
+		AA1F549B2CFF4AF400BE99DC /* AboutusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F549A2CFF4AF400BE99DC /* AboutusViewController.swift */; };
+		AA1F549D2CFF4AFC00BE99DC /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F549C2CFF4AFC00BE99DC /* FeedbackViewController.swift */; };
+		AA1F549F2CFF5F1800BE99DC /* AddmemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F549E2CFF5F1800BE99DC /* AddmemberViewController.swift */; };
+		AA1F54A12CFF63EC00BE99DC /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F54A02CFF63EC00BE99DC /* iOSDropDown.swift */; };
+		AA1F54A52CFF6A6400BE99DC /* RecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F54A42CFF6A6400BE99DC /* RecordsViewController.swift */; };
+		AA1F54A72CFF6A7600BE99DC /* recordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F54A62CFF6A7600BE99DC /* recordTableViewCell.swift */; };
+		AA1F54AA2CFF9D5F00BE99DC /* AssignPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F54A92CFF9D5F00BE99DC /* AssignPaymentViewController.swift */; };
+		AA1F54AD2CFFA23E00BE99DC /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F54AC2CFFA23E00BE99DC /* HistoryViewController.swift */; };
+		AA1F54AF2CFFA25000BE99DC /* historyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F54AE2CFFA25000BE99DC /* historyTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		940388FDBFC2834076F7155D /* Pods-GroupVault Share.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupVault Share.debug.xcconfig"; path = "Target Support Files/Pods-GroupVault Share/Pods-GroupVault Share.debug.xcconfig"; sourceTree = "<group>"; };
+		9641D8431BD8BF310DA9DDF2 /* Pods_GroupVault_Share.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroupVault_Share.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA084FA72CFBA1BF00C273E5 /* GroupVault Share.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GroupVault Share.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA084FAA2CFBA1BF00C273E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA084FAC2CFBA1BF00C273E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AA084FAE2CFBA1BF00C273E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA084FB12CFBA1BF00C273E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA084FB32CFBA1C100C273E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA084FB62CFBA1C100C273E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA084FB82CFBA1C100C273E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA084FBF2CFBA68200C273E5 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		AA084FC22CFBA6B300C273E5 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		AA084FC52CFBA88800C273E5 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		AA084FC72CFBA89E00C273E5 /* dashboardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dashboardCollectionViewCell.swift; sourceTree = "<group>"; };
+		AA1F54982CFF4AEC00BE99DC /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AA1F549A2CFF4AF400BE99DC /* AboutusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutusViewController.swift; sourceTree = "<group>"; };
+		AA1F549C2CFF4AFC00BE99DC /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		AA1F549E2CFF5F1800BE99DC /* AddmemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddmemberViewController.swift; sourceTree = "<group>"; };
+		AA1F54A02CFF63EC00BE99DC /* iOSDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSDropDown.swift; sourceTree = "<group>"; };
+		AA1F54A42CFF6A6400BE99DC /* RecordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsViewController.swift; sourceTree = "<group>"; };
+		AA1F54A62CFF6A7600BE99DC /* recordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recordTableViewCell.swift; sourceTree = "<group>"; };
+		AA1F54A92CFF9D5F00BE99DC /* AssignPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignPaymentViewController.swift; sourceTree = "<group>"; };
+		AA1F54AC2CFFA23E00BE99DC /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		AA1F54AE2CFFA25000BE99DC /* historyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historyTableViewCell.swift; sourceTree = "<group>"; };
+		E48CBB8C0E591D3D5C18ED0A /* Pods-GroupVault Share.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupVault Share.release.xcconfig"; path = "Target Support Files/Pods-GroupVault Share/Pods-GroupVault Share.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA084FA42CFBA1BF00C273E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C0740B236AA9958E71969F /* Pods_GroupVault_Share.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13335671EBD01D8ECD03FD5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9641D8431BD8BF310DA9DDF2 /* Pods_GroupVault_Share.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA084F9E2CFBA1BF00C273E5 = {
+			isa = PBXGroup;
+			children = (
+				AA084FA92CFBA1BF00C273E5 /* GroupVault Share */,
+				AA084FA82CFBA1BF00C273E5 /* Products */,
+				F51981623BD4CE44B2CDC381 /* Pods */,
+				13335671EBD01D8ECD03FD5A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA084FA82CFBA1BF00C273E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA084FA72CFBA1BF00C273E5 /* GroupVault Share.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA084FA92CFBA1BF00C273E5 /* GroupVault Share */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F54AB2CFFA22C00BE99DC /* History */,
+				AA1F54A82CFF9D4800BE99DC /* AssignPayment */,
+				AA1F54A32CFF6A5300BE99DC /* Member Records */,
+				AA1F54A22CFF67AE00BE99DC /* AddMember */,
+				AA1F54972CFF4AE000BE99DC /* Sewttings */,
+				AA084FC42CFBA87500C273E5 /* Dashboard */,
+				AA084FC12CFBA69F00C273E5 /* Welcome */,
+				AA084FBE2CFBA65800C273E5 /* Constant */,
+				AA084FAA2CFBA1BF00C273E5 /* AppDelegate.swift */,
+				AA084FAC2CFBA1BF00C273E5 /* SceneDelegate.swift */,
+				AA084FAE2CFBA1BF00C273E5 /* ViewController.swift */,
+				AA084FB02CFBA1BF00C273E5 /* Main.storyboard */,
+				AA084FB32CFBA1C100C273E5 /* Assets.xcassets */,
+				AA084FB52CFBA1C100C273E5 /* LaunchScreen.storyboard */,
+				AA084FB82CFBA1C100C273E5 /* Info.plist */,
+			);
+			path = "GroupVault Share";
+			sourceTree = "<group>";
+		};
+		AA084FBE2CFBA65800C273E5 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F54A02CFF63EC00BE99DC /* iOSDropDown.swift */,
+				AA084FBF2CFBA68200C273E5 /* Helper.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		AA084FC12CFBA69F00C273E5 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				AA084FC22CFBA6B300C273E5 /* WelcomeViewController.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		AA084FC42CFBA87500C273E5 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				AA084FC52CFBA88800C273E5 /* DashboardViewController.swift */,
+				AA084FC72CFBA89E00C273E5 /* dashboardCollectionViewCell.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		AA1F54972CFF4AE000BE99DC /* Sewttings */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F54982CFF4AEC00BE99DC /* SettingsViewController.swift */,
+				AA1F549C2CFF4AFC00BE99DC /* FeedbackViewController.swift */,
+				AA1F549A2CFF4AF400BE99DC /* AboutusViewController.swift */,
+			);
+			path = Sewttings;
+			sourceTree = "<group>";
+		};
+		AA1F54A22CFF67AE00BE99DC /* AddMember */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F549E2CFF5F1800BE99DC /* AddmemberViewController.swift */,
+			);
+			path = AddMember;
+			sourceTree = "<group>";
+		};
+		AA1F54A32CFF6A5300BE99DC /* Member Records */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F54A42CFF6A6400BE99DC /* RecordsViewController.swift */,
+				AA1F54A62CFF6A7600BE99DC /* recordTableViewCell.swift */,
+			);
+			path = "Member Records";
+			sourceTree = "<group>";
+		};
+		AA1F54A82CFF9D4800BE99DC /* AssignPayment */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F54A92CFF9D5F00BE99DC /* AssignPaymentViewController.swift */,
+			);
+			path = AssignPayment;
+			sourceTree = "<group>";
+		};
+		AA1F54AB2CFFA22C00BE99DC /* History */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F54AC2CFFA23E00BE99DC /* HistoryViewController.swift */,
+				AA1F54AE2CFFA25000BE99DC /* historyTableViewCell.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		F51981623BD4CE44B2CDC381 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				940388FDBFC2834076F7155D /* Pods-GroupVault Share.debug.xcconfig */,
+				E48CBB8C0E591D3D5C18ED0A /* Pods-GroupVault Share.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA084FA62CFBA1BF00C273E5 /* GroupVault Share */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA084FBB2CFBA1C100C273E5 /* Build configuration list for PBXNativeTarget "GroupVault Share" */;
+			buildPhases = (
+				E822EA25CDB621C59C9071E0 /* [CP] Check Pods Manifest.lock */,
+				AA084FA32CFBA1BF00C273E5 /* Sources */,
+				AA084FA42CFBA1BF00C273E5 /* Frameworks */,
+				AA084FA52CFBA1BF00C273E5 /* Resources */,
+				FB1478846CE8C0DB8DFEC52F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GroupVault Share";
+			productName = "GroupVault Share";
+			productReference = AA084FA72CFBA1BF00C273E5 /* GroupVault Share.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA084F9F2CFBA1BF00C273E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					AA084FA62CFBA1BF00C273E5 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = AA084FA22CFBA1BF00C273E5 /* Build configuration list for PBXProject "GroupVault Share" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA084F9E2CFBA1BF00C273E5;
+			productRefGroup = AA084FA82CFBA1BF00C273E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA084FA62CFBA1BF00C273E5 /* GroupVault Share */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA084FA52CFBA1BF00C273E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA084FB72CFBA1C100C273E5 /* LaunchScreen.storyboard in Resources */,
+				AA084FB42CFBA1C100C273E5 /* Assets.xcassets in Resources */,
+				AA084FB22CFBA1BF00C273E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E822EA25CDB621C59C9071E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GroupVault Share-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB1478846CE8C0DB8DFEC52F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GroupVault Share/Pods-GroupVault Share-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GroupVault Share/Pods-GroupVault Share-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GroupVault Share/Pods-GroupVault Share-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA084FA32CFBA1BF00C273E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1F54A12CFF63EC00BE99DC /* iOSDropDown.swift in Sources */,
+				AA1F54AF2CFFA25000BE99DC /* historyTableViewCell.swift in Sources */,
+				AA084FAF2CFBA1BF00C273E5 /* ViewController.swift in Sources */,
+				AA1F54A72CFF6A7600BE99DC /* recordTableViewCell.swift in Sources */,
+				AA1F54AA2CFF9D5F00BE99DC /* AssignPaymentViewController.swift in Sources */,
+				AA084FC62CFBA88800C273E5 /* DashboardViewController.swift in Sources */,
+				AA084FC82CFBA89E00C273E5 /* dashboardCollectionViewCell.swift in Sources */,
+				AA1F549D2CFF4AFC00BE99DC /* FeedbackViewController.swift in Sources */,
+				AA1F54AD2CFFA23E00BE99DC /* HistoryViewController.swift in Sources */,
+				AA1F549B2CFF4AF400BE99DC /* AboutusViewController.swift in Sources */,
+				AA084FC32CFBA6B300C273E5 /* WelcomeViewController.swift in Sources */,
+				AA084FAB2CFBA1BF00C273E5 /* AppDelegate.swift in Sources */,
+				AA084FAD2CFBA1BF00C273E5 /* SceneDelegate.swift in Sources */,
+				AA084FC02CFBA68200C273E5 /* Helper.swift in Sources */,
+				AA1F549F2CFF5F1800BE99DC /* AddmemberViewController.swift in Sources */,
+				AA1F54A52CFF6A6400BE99DC /* RecordsViewController.swift in Sources */,
+				AA1F54992CFF4AEC00BE99DC /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA084FB02CFBA1BF00C273E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA084FB12CFBA1BF00C273E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA084FB52CFBA1C100C273E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA084FB62CFBA1C100C273E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA084FB92CFBA1C100C273E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA084FBA2CFBA1C100C273E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA084FBC2CFBA1C100C273E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 940388FDBFC2834076F7155D /* Pods-GroupVault Share.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GroupVault Share/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GroupVault-Share";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AA084FBD2CFBA1C100C273E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E48CBB8C0E591D3D5C18ED0A /* Pods-GroupVault Share.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GroupVault Share/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GroupVault-Share";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA084FA22CFBA1BF00C273E5 /* Build configuration list for PBXProject "GroupVault Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA084FB92CFBA1C100C273E5 /* Debug */,
+				AA084FBA2CFBA1C100C273E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA084FBB2CFBA1C100C273E5 /* Build configuration list for PBXNativeTarget "GroupVault Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA084FBC2CFBA1C100C273E5 /* Debug */,
+				AA084FBD2CFBA1C100C273E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA084F9F2CFBA1BF00C273E5 /* Project object */;
+}
